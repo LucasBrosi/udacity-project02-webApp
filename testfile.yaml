@@ -1,0 +1,6 @@
+aws ssm put-parameter \
+    --name "default-ami" \
+    --type "String" \
+    --value "t2.micro" \
+    --overwrite \
+    --tier "Standard"
